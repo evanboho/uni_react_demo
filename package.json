@@ -1,0 +1,39 @@
+{
+  "name": "unitrans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"webpack-dev-server --inline\" \"nodemon src/server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evan Kuchar",
+  "license": "ISC",
+  "dependencies": {
+    "constant-case": "^1.1.2",
+    "express": "^4.13.4",
+    "immutable": "^3.7.6",
+    "jade": "^1.11.0",
+    "lodash": "^4.0.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "react-router": "^2.0.0",
+    "redux": "^3.3.1",
+    "redux-thunk": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "babel-root-import": "^3.1.0",
+    "concurrently": "^2.0.0",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

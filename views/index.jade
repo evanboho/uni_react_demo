@@ -1,0 +1,9 @@
+html
+  head
+    meta(name='viewport', content='width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0')
+  body
+    #app!= dom
+
+    script(src='http://localhost:4321/bundle.js')
+    script(type='text/javascript').
+      window.__INITIAL_STATE__ = !{JSON.stringify(initialState)}
